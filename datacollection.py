@@ -25,7 +25,7 @@ while True:
         imgCrop = img[y-offset:y + h + offset, x-offset:x + w + offset]
         imgCropShape = imgCrop.shape
 
-        aspectRatio = h / w
+        aspectRatio = h / w  
 
         if aspectRatio > 1:
             k = imgSize / h
