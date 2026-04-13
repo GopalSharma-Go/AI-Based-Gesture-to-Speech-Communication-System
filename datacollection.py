@@ -10,7 +10,8 @@ offset = 20
 imgSize = 300
 counter = 0
 
-folder = "Data/Okay"
+folder = "C:/Users/HP/Downloads/Sign-Language-detection-main/Sign-Language-detection-main/DATA/A"
+
 
 while True:
     success, img = cap.read()
